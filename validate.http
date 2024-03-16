@@ -1,0 +1,10 @@
+POST http://localhost:8080/validate
+Content-Type: application/json
+
+{
+  "cardNumber": "4111111111111111",
+  "expirationMonth": 4,
+  "expirationYear":2024
+}
+
+###

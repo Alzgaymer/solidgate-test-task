@@ -49,6 +49,6 @@ func InitCardHandler() *card.Handler {
 func InitServer(mux http.Handler) *http.Server {
 	return &http.Server{
 		Handler: mux,
-		Addr:    "localhost:8080",
+		Addr:    ":8080",
 	}
 }
